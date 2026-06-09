@@ -3,7 +3,7 @@
 Repositório de referência técnica para a implantação da **Estação Terrestre 4.0 para Nanosatélites** no Parque Tecnológico de Sorocaba (PTS), com financiamento FINEP (programa PTSINOVA40).
 
 **Consultor responsável:** Prof. Dr. Sergio Shimura — IFSP Sorocaba  
-**Colaborador:** Adolfo Carvalho — Doutorando em Astronomia, Caltech  
+**Colaborador:** Adolfo Carvalho — Dr. Astrofísica, Caltech; Pós-Doc em Harvard  
 **Contato:** shimurasergio@gmail.com
 
 ---
@@ -110,7 +110,7 @@ O PTS submeteu o projeto **PTSINOVA40** à FINEP em 28/03/2022 (total: R$ 14,24M
 |---|---|---|
 | Alya Nanosatellites (França) | Nanosatélites comerciais | Parceiro original do projeto FINEP 2022 — reativar |
 | INPE (São José dos Campos) | CubeSat-BR, meteorologia | Programa nacional de CubeSats |
-| Caltech/JPL (via Adolfo Carvalho) | Radioastronomia, ALMA | Conexão estratégica para Etapa 3 |
+| Harvard/Caltech (via Adolfo Carvalho) | Astrofísica, ALMA, radioastronomia | Conexão estratégica para Etapa 3 |
 | Morehead State University (EUA) | Estação universitária CubeSats | Referência mundial |
 | Libre Space Foundation / SatNOGS | Rede open-source global | Integração operacional imediata |
 | AMSAT-BR | Satélites amadores | Comunidade ativa no Brasil |
