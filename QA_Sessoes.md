@@ -10,8 +10,8 @@ Perguntas e respostas das sessões de consultoria técnica. Organizadas por tema
 
 **ANATEL:**
 - **Homologação de equipamentos** — obrigação do fabricante/importador (não do PTS). Todo equipamento RF comercializado no Brasil já deve ter o Certificado de Homologação ANATEL. Verificar antes de comprar equipamentos importados.
-- **Licença de Estação de Radiocomunicação** — instalação da estação em si. Necessário para operar legalmente.
-- **Autorização de Uso de Radiofrequência** — obrigatório somente se houver **uplink** (transmissão para satélites). Estação receptora pura tem exigências muito menores.
+- **Licença de Estação de Radiocomunicação** — necessário apenas se houver **transmissão**. Estação exclusivamente receptora é **dispensada de licenciamento** pela regulação ANATEL (veja Q abaixo).
+- **Autorização de Uso de Radiofrequência** — obrigatório somente se houver **uplink** (transmissão para satélites).
 
 **Prefeitura de Sorocaba:**
 - Alvará de construção para a estrutura de fixação das antenas (mesmo dentro do PTS).
@@ -35,7 +35,31 @@ Terminologia correta (ANATEL):
 - **Licença de Estação de Radiocomunicação** = autorização para **instalar e operar** a estação
 - **Autorização de Uso de Radiofrequência** = permissão para **usar determinada frequência** (obrigatório para uplink)
 
-Para uplink de controle de satélites, o PTS precisaria de Licença de Estação + Autorização de RF. Para recepção pura, apenas Licença de Estação (processo mais simples).
+Para uplink de controle de satélites, o PTS precisaria de Licença de Estação + Autorização de RF. Para recepção pura, nenhuma licença de estação é necessária (veja Q abaixo).
+
+---
+
+### Q: Preciso de licença de estação de radiocomunicação se operar somente para recepção de sinais de satélite?
+
+**Não.** Estações **exclusivamente receptoras são dispensadas de licenciamento** pela regulação ANATEL.
+
+A lógica regulatória é clara: a ANATEL regula o **uso do espectro de radiofrequências**, e usar o espectro significa **transmitir**. Quem só recebe não ocupa o espectro — não precisa de licença de estação. O cadastramento voluntário no sistema Mosaico é possível (e dá proteção contra interferência), mas não é obrigatório.
+
+**Resumo prático por configuração:**
+
+| Configuração | Licença necessária? |
+|---|---|
+| SDR (RTL-SDR, USRP B210) + computador, só recepção | Não |
+| TinyGS em ESP32, só recepção | Não |
+| Antena Yagi + LNA + receptor NOAA/GOES-16 | Não |
+| Uplink para satélite (qualquer transmissão) | Sim — Autorização de Uso de RF + Licença de Estação |
+| Uplink em frequências de radioamador (ex: 437 MHz) | Sim — COER (Certificado de Operador de Estação de Radioamador) |
+
+**Recomendação para o PTS:**
+- **Etapa 1** (recepção pura: NOAA, GOES-16, CubeSats, TinyGS) — opera sem nenhuma licença de estação.
+- **Futuro uplink** (ex: FOSSASAT-2E em 437 MHz) — o caminho mais simples é ter um pesquisador ou técnico com **licença de radioamador (COER)**. O processo é mais ágil que a licença comercial e cobre exatamente as frequências dos CubeSats educacionais.
+
+> Fonte: Regulamento Geral de Licenciamento ANATEL — [gov.br/anatel](https://www.gov.br/anatel/pt-br/regulado/outorga/regulamento-geral-de-licenciamento)
 
 ---
 
