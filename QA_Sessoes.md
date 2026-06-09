@@ -300,4 +300,60 @@ Sensor ESP32 (IFSP Sorocoba)
 
 ---
 
+## 8. Referências e Fontes
+
+### Regulação
+
+| Fonte | URL |
+|---|---|
+| ANATEL — Regulamento Geral de Licenciamento | [gov.br/anatel/regulamento-licenciamento](https://www.gov.br/anatel/pt-br/regulado/outorga/regulamento-geral-de-licenciamento) |
+| ANATEL — Licenciamento Radioamador (COER) | [gov.br/anatel/radioamador](https://www.gov.br/anatel/pt-br/regulado/outorga/radioamador-e-radio-cidadao/licenciamento-de-estacoes-do-radioamador) |
+| ANATEL — Perguntas Frequentes Satélite | [anatel.gov.br/satelite-faq](https://www.anatel.gov.br/setorregulado/perguntas-frequentes?catid=2) |
+
+### Satélites e redes
+
+| Fonte | URL |
+|---|---|
+| TinyGS — rede global open-source | [tinygs.com](https://tinygs.com) |
+| TinyGS — Web Installer (flash sem programação) | [installer.tinygs.com](https://installer.tinygs.com) |
+| TinyGS — GitHub | [github.com/G4lile0/tinyGS](https://github.com/G4lile0/tinyGS) |
+| FOSSASAT-2 — repositório oficial | [github.com/FOSSASystems/FOSSASAT-2](https://github.com/FOSSASystems/FOSSASAT-2) |
+| FOSSASAT — simulação comunicação bidirecional | [github.com/McOrts/fossasat1_satellite-communication-simulation](https://github.com/McOrts/fossasat1_satellite-communication-simulation) |
+| Lacuna Space + TTI — free tier satélite LoRaWAN | [thethingsindustries.com/lacuna-space](https://www.thethingsindustries.com/news/lacuna-space-and-the-things-industries-partner-to-provide-free-access-to-direct-to-satellite-lora-connectivity-for-developers-around-the-world/) |
+| SatNOGS — Libre Space Foundation | [satnogs.org](https://satnogs.org) |
+| GOES-16 — NOAA/NESDIS | [nesdis.noaa.gov/goes-east](https://www.nesdis.noaa.gov/current-satellite-missions/currently-flying/geostationary-satellites/goes-east) |
+| GOES-16 — Open Data AWS | [registry.opendata.aws/noaa-goes](https://registry.opendata.aws/noaa-goes/) |
+| NOAA APT/HRPT Satellites | [noaa.gov/satellites](https://www.noaa.gov/satellites) |
+
+### Estações de referência
+
+| Fonte | URL |
+|---|---|
+| ISISPACE Ground Station (TU Delft spin-off) | [isispace.nl/ground-station](https://www.isispace.nl/product/isis-ground-station/) |
+| ISISPACE — CubeSatShop (specs + preços) | [cubesatshop.com/isispace](https://www.cubesatshop.com/product/isis-ground-station-system/) |
+| Morehead State University Space Science Center | [moreheadstate.edu/csos](https://www.moreheadstate.edu/academics/colleges/science/csos) |
+| RTL-SDR — Building a FossaSat LoRa Ground Station | [rtl-sdr.com/fossasat-ground-station](https://www.rtl-sdr.com/building-a-fossasat-1-lora-iot-ground-station/) |
+
+### Tutoriais — ESP32 + LoRa + IoT + Satélite
+
+| Fonte | URL |
+|---|---|
+| RadioLib — biblioteca universal LoRa/FOSSASAT | [github.com/jgromes/RadioLib](https://github.com/jgromes/RadioLib) |
+| Random Nerd Tutorials — ESP32 + LoRa RFM95 | [randomnerdtutorials.com/esp32-lora-rfm95](https://randomnerdtutorials.com/esp32-lora-rfm95-transceiver-arduino-ide/) |
+| Random Nerd Tutorials — ESP32 + LoRa + Sensor + Web Server | [randomnerdtutorials.com/esp32-lora-sensor-web-server](https://randomnerdtutorials.com/esp32-lora-sensor-web-server/) |
+| ESP32 — Sensor de umidade do solo | [esp32io.com/soil-moisture](https://esp32io.com/tutorials/esp32-soil-moisture-sensor) |
+| ESP32 + LoRa + Temperatura + Umidade (GitHub) | [github.com/rch-goldsnaker/esp32-lora-humidity-temperature](https://github.com/rch-goldsnaker/esp32-lora-humidity-temperature) |
+| ESP32 + LoRa + Agricultura + RS485 (GitHub) | [github.com/myinvent/ESP32-LoRa-RS485-Agriculture-Kit](https://github.com/myinvent/ESP32-LoRa-RS485-Agriculture-Kit) |
+| LoRa Soil Moisture Monitoring — How2Electronics | [how2electronics.com/lora-soil-moisture](https://how2electronics.com/lora-based-soil-moisture-monitoring-on-lora-esp32-webserver/) |
+
+### Artigos científicos
+
+| Fonte | URL |
+|---|---|
+| IoT Node com LoRa GEO Satélite para Agrofood (MDPI Sensors 2025) | [mdpi.com/1424-8220/25/20/6469](https://www.mdpi.com/1424-8220/25/20/6469) |
+| Soil Water Monitoring com LoRa (MDPI Sensors 2024) | [mdpi.com/1424-8220/24/24/8104](https://www.mdpi.com/1424-8220/24/24/8104) |
+| Low-Cost IoT Smart Agricultural System com ESP32 + LoRa (IEEE 2025) | [ieeexplore.ieee.org/10928022](https://ieeexplore.ieee.org/document/10928022/) |
+
+---
+
 *Documento atualizado em 09/06/2026 — Sessão de consultoria técnica.*

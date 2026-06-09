@@ -141,8 +141,42 @@ O PTS submeteu o projeto **PTSINOVA40** à FINEP em 28/03/2022 (total: R$ 14,24M
 
 ## Referências
 
+### Documentos internos do projeto
+
 - `NanosatélitesConsultoria.pdf` — caderno de escopo da Inova Sorocaba (mar/2026)
 - `formulario FINAL 28032022.pdf` — formulário FINEP PTSINOVA40 (2022)
 - `Parecer_Tecnico_EstacaoSolo_SergioShimura.docx` — parecer técnico (20/05/2026)
 - `Proposta Estação de Solo-Shimura.pptx` — proposta de consultoria (jun/2026)
-- ISISPACE Ground Station Datasheet — referência de equipamentos profissionais (TU Delft spin-off)
+- `Parecer Técnico Estação de Solo para Satélites.eml` — email de Mariane (26/05/2026) com lista FINEP
+
+### Equipamentos e estações de referência
+
+- [ISISPACE Ground Station (TU Delft spin-off)](https://www.isispace.nl/product/isis-ground-station/) — datasheet com specs completos de Yagi VHF/UHF e prato S-band
+- [CubeSatShop — ISISPACE Ground Station](https://www.cubesatshop.com/product/isis-ground-station-system/) — mirror com preços e especificações
+- [SatNOGS — Libre Space Foundation](https://satnogs.org) — rede global open-source de estações
+- [Morehead State University Space Science Center](https://www.moreheadstate.edu/academics/colleges/science/csos) — referência mundial para estações universitárias
+
+### Regulação
+
+- [ANATEL — Regulamento Geral de Licenciamento](https://www.gov.br/anatel/pt-br/regulado/outorga/regulamento-geral-de-licenciamento) — estações receptoras dispensadas de licenciamento
+- [ANATEL — Licenciamento Radioamador (COER)](https://www.gov.br/anatel/pt-br/regulado/outorga/radioamador-e-radio-cidadao/licenciamento-de-estacoes-do-radioamador) — necessário para uplink em frequências de radioamador
+
+### Satélites e redes
+
+- [TinyGS](https://tinygs.com) — rede global de estações ESP32 receptoras de satélites LoRa (gratuito)
+- [TinyGS Web Installer](https://installer.tinygs.com) — flash do firmware sem programação
+- [FOSSASAT-2 GitHub](https://github.com/FOSSASystems/FOSSASAT-2) — satélite PocketQube open-source com uplink LoRa livre
+- [Lacuna Space + The Things Industries](https://www.thethingsindustries.com/news/lacuna-space-and-the-things-industries-partner-to-provide-free-access-to-direct-to-satellite-lora-connectivity-for-developers-around-the-world/) — free tier de conectividade LoRaWAN via satélite para desenvolvedores
+- [NOAA Satellites — APT/HRPT](https://www.noaa.gov/satellites) — portal oficial NOAA com dados e frequências
+- [GOES-16 — NOAA/NESDIS](https://www.nesdis.noaa.gov/current-satellite-missions/currently-flying/geostationary-satellites/goes-east) — satélite meteorológico geoestacionário cobrindo América do Sul
+- [GOES-16 Open Data — AWS](https://registry.opendata.aws/noaa-goes/) — imagens públicas em tempo real na AWS
+
+### Tutoriais IoT + LoRa + Satélite
+
+- [RadioLib — biblioteca universal LoRa/FOSSASAT](https://github.com/jgromes/RadioLib) — suporte nativo ao protocolo FOSSASAT
+- [Random Nerd Tutorials — ESP32 + LoRa RFM95](https://randomnerdtutorials.com/esp32-lora-rfm95-transceiver-arduino-ide/) — configuração básica no Arduino IDE
+- [Random Nerd Tutorials — ESP32 + LoRa + Sensor + Web Server](https://randomnerdtutorials.com/esp32-lora-sensor-web-server/) — tutorial completo com sensor e servidor web
+- [ESP32 Soil Moisture Sensor](https://esp32io.com/tutorials/esp32-soil-moisture-sensor) — leitura de sensor capacitivo de umidade do solo
+- [FOSSASAT communication simulation (GitHub)](https://github.com/McOrts/fossasat1_satellite-communication-simulation) — simulação de comunicação bidirecional sem precisar esperar passagem de satélite
+- [ESP32 LoRa Humidity + Temperature (GitHub)](https://github.com/rch-goldsnaker/esp32-lora-humidity-temperature) — projeto completo ESP32 + LoRa + sensores
+- [RTL-SDR — Building a FossaSat-1 LoRa Ground Station](https://www.rtl-sdr.com/building-a-fossasat-1-lora-iot-ground-station/) — tutorial de estação receptora low-cost
