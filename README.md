@@ -143,6 +143,7 @@ O PTS submeteu o projeto **PTSINOVA40** à FINEP em 28/03/2022 (total: R$ 14,24M
 
 ### Documentos internos do projeto
 
+- [QA_Sessoes.md](QA_Sessoes.md) — perguntas e respostas das sessões de consultoria técnica
 - [NanosatélitesConsultoria.pdf](Referencias/NanosatélitesConsultoria.pdf) — caderno de escopo da Inova Sorocaba (mar/2026)
 - [formulario FINAL 28032022.pdf](<Referencias/formulario FINAL 28032022.pdf>) — formulário FINEP PTSINOVA40 (2022)
 - [Parecer_Tecnico_EstacaoSolo_SergioShimura.docx](Referencias/Parecer_Tecnico_EstacaoSolo_SergioShimura.docx) — parecer técnico (20/05/2026)
