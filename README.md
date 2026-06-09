@@ -143,11 +143,11 @@ O PTS submeteu o projeto **PTSINOVA40** à FINEP em 28/03/2022 (total: R$ 14,24M
 
 ### Documentos internos do projeto
 
-- `NanosatélitesConsultoria.pdf` — caderno de escopo da Inova Sorocaba (mar/2026)
-- `formulario FINAL 28032022.pdf` — formulário FINEP PTSINOVA40 (2022)
-- `Parecer_Tecnico_EstacaoSolo_SergioShimura.docx` — parecer técnico (20/05/2026)
-- `Proposta Estação de Solo-Shimura.pptx` — proposta de consultoria (jun/2026)
-- `Parecer Técnico Estação de Solo para Satélites.eml` — email de Mariane (26/05/2026) com lista FINEP
+- [NanosatélitesConsultoria.pdf](Referencias/NanosatélitesConsultoria.pdf) — caderno de escopo da Inova Sorocaba (mar/2026)
+- [formulario FINAL 28032022.pdf](<Referencias/formulario FINAL 28032022.pdf>) — formulário FINEP PTSINOVA40 (2022)
+- [Parecer_Tecnico_EstacaoSolo_SergioShimura.docx](Referencias/Parecer_Tecnico_EstacaoSolo_SergioShimura.docx) — parecer técnico (20/05/2026)
+- [Proposta Estação de Solo-Shimura.pptx](<Referencias/Proposta Estação de Solo-Shimura.pptx>) — proposta de consultoria (jun/2026)
+- [Parecer Técnico Estação de Solo para Satélites.eml](<Referencias/Parecer Técnico Estação de Solo para Satélites.eml>) — email de Mariane (26/05/2026) com lista FINEP
 
 ### Equipamentos e estações de referência
 
